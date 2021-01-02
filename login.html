@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/validasi.js"></script>
+
+  <!--  Untuk membuat logo pada tab website -->
+  <link rel="icon" type="image/png" href="images/del.png" />
+  
+</head>
+
+<body>
+  <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+      <form name="login">
+        <div align="center">
+          <img class="logo" src="images/del.png">
+        </div>
+          <h2>LOGIN</h2>
+          <div align="center" class="underline-title"></div>
+      </div>
+      <label for="user-username" style="padding-top:22px"> &nbsp;Username </label>
+      <input id="user-username" class="form-content" type="text" name="username" autocomplete="on" required />
+      <div class="form-border"></div> <br>
+
+      <label for="user-password" style="padding-top:22px"> &nbsp;Password </label>
+      <input id="user-password" class="form-content" type="password" name="password" required />
+      <div class="form-border"></div>
+      <a href=""> <legend id="forgot-pass">Forgot Password ?</legend> </a>
+      <input id="submit-btn" type="button" name="submit" value="LOGIN" onclick="Login()" /> <br>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Akun Login :
+
+Mahasiswa :
+Username		:  mahasiswa
+Password		:  mahasiswa
+
+Pihak Kantin :
+Username		:  parkantin
+Password		:  parkantin
+
+Dosen :
+Username		:  dosen
+Password		:  dosen
+
+Departmen Ketertiban :
+Username		:  dep_ketertiban
+Password		:  dep_ketertiban
+
+Pihak Asrama :
+Username		:  asrama
+Password		:  asrama
